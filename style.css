@@ -244,17 +244,9 @@ nav .mobile-menu {
 .fl-block-r {
   width: 50%;
   display: flex;
-  justify-content: center;
-  gap: 10rem;
+  justify-content: space-between;
 }
-.fl-block-rl {
-  display: flex;
-  gap: 10rem;
-}
-.fl-block-rr {
-  display: flex;
-  gap: 10rem;
-}
+
 .fl-text-l {
   font-weight: 400;
   font-size: 20px;
