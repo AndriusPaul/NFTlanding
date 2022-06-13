@@ -1,0 +1,4 @@
+@media only screen and (max-width: 1024px) {
+}
+/* z-index tas kuris auksciau naudok aukstesni skaiciu, tas kuris turi palyst po apacia: zemesnis skaicius. */
+/* pvz: z-index: 1 ir z-index: 9 */
