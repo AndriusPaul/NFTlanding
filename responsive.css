@@ -1,4 +1,106 @@
 @media only screen and (max-width: 1024px) {
+  header {
+    padding: 50px 0px;
+  }
+  .h-block-r img {
+    width: 100%;
+  }
+  nav a {
+    display: none;
+  }
+  nav .mobile-menu {
+    display: block;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .main {
+    height: 60vh;
+  }
+  .h-block-r {
+    width: 90%;
+    float: right;
+    margin-top: -40vh;
+    margin-right: -22vh;
+    z-index: 1;
+  }
+  .h-block-l {
+    width: 80%;
+    padding: 0px;
+    display: inline-block;
+    z-index: 99;
+  }
+  .big-text {
+    width: 274px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .grey-text {
+    width: 80%;
+  }
+  .mb {
+    width: 100%;
+  }
+  .f-block-r {
+    width: 70%;
+    float: right;
+    margin-top: 10vh;
+    margin-right: -11vh;
+  }
+  .companies {
+    margin-bottom: 5vh;
+    align-content: center;
+  }
+  .companies img {
+    height: 20px;
+    align-items: center;
+  }
+  .mb .rgb-block {
+    border-radius: 0px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .rgb-block {
+    margin-bottom: 5vh;
+  }
+  .rgb-text,
+  .rgb-text2 {
+    width: 63%;
+  }
+  .main {
+    height: 50vh;
+  }
+  .text,
+  .text2 {
+    width: 70%;
+  }
+
+  .hidden {
+    display: block;
+  }
+  .hidden-mb {
+    display: none;
+  }
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .fl-block-l {
+    padding-bottom: 5vh;
+  }
+  .fl-block-r {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .fl-block-rr {
+    gap: 8.5rem;
+  }
+  .footer-bottom {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .line2 {
+    border-bottom: 2px solid #eee;
+    width: 200%;
+  }
 }
-/* z-index tas kuris auksciau naudok aukstesni skaiciu, tas kuris turi palyst po apacia: zemesnis skaicius. */
-/* pvz: z-index: 1 ir z-index: 9 */

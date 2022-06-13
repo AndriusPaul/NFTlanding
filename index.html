@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -22,7 +22,7 @@
       media="all and (max-width: 1024px)"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Inter"
+      href="https://fonts.google.com/specimen/Inter?query=inter"
       rel="stylesheet"
     />
     <title>NFTlanding</title>
@@ -37,7 +37,10 @@
           <a href="#">Features</a>
           <a href="#">About</a>
           <a href="#">Launch</a>
-          <a href="#">Sign up</a>
+          <a class="pink" href="#">Sign up</a>
+          <div class="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </nav>
       </header>
       <div class="main">
@@ -55,23 +58,23 @@
         </div>
       </div>
     </div>
-
-    <div class="container">
+    <div class="container2 mb">
       <div class="rgb-block">
         <div class="rgb-text">Free NFT for early birds</div>
         <div class="rgb-text2">
           Sign up today and you`ll get a free NFT when we launch.
         </div>
       </div>
-
+    </div>
+    <div class="container">
       <div class="companies">
-        <img src="./assets/companies/1.svg" alt="" />
+        <img class="hidden-mb" src="./assets/companies/1.svg" alt="" />
+        <img class="hidden" src="./assets/companies/1boom.svg" alt="" />
         <img src="./assets/companies/2.svg" alt="" />
         <img src="./assets/companies/3.svg" alt="" />
-        <img src="./assets/companies/4.svg" alt="" />
+        <img class="hidden-mb" src="./assets/companies/4.svg" alt="" />
         <img src="./assets/companies/5.svg" alt="" />
       </div>
-
       <div class="text">LE Super Rare Auction</div>
       <div class="text2">
         We have released four limited edition NFTs early which can be bid on via
@@ -153,14 +156,16 @@
           <div class="f-block-l">
             <div class="text-purple">Launching Soon</div>
             <div class="big-text2">An NFT like no other</div>
+            <div class="line2"></div>
             <div class="grey-text">
               Don`t miss out on the release of our new NFT. Sign up below to
-              receive updates when we go live.
+              receive updates.
             </div>
             <div class="btn">Sign up</div>
           </div>
           <div class="f-block-r">
             <img src="./assets/upsell-footer-image.svg" alt="" />
+            <div class="line"></div>
           </div>
         </div>
         <div class="line"></div>
@@ -175,35 +180,34 @@
           <i class="fa-brands fa-tiktok"></i>
         </div>
         <div class="fl-block-r">
-          <div class="fl-block-rr">
-            <div>
-              <div class="fl-text-r">About</div>
-              <div class="fl-text-rr">About</div>
-              <div class="fl-text-rr">Terms</div>
-              <div class="fl-text-rr">Legal</div>
-            </div>
-            <div>
-              <div class="fl-text-r">NFT</div>
-              <div class="fl-text-rr">OpenSea</div>
-              <div class="fl-text-rr">Maker</div>
-              <div class="fl-text-rr">Learn</div>
-            </div>
-            <div>
-              <div class="fl-text-r">Contact</div>
-              <div class="fl-text-rr">Press</div>
-              <div class="fl-text-rr">Support</div>
-            </div>
-            <div>
-              <div class="fl-text-r">Social</div>
-              <div class="fl-text-rr">Twitter</div>
-              <div class="fl-text-rr">Instagram</div>
-            </div>
+          <div>
+            <div class="fl-text-r">About</div>
+            <div class="fl-text-rr">About</div>
+            <div class="fl-text-rr">Terms</div>
+            <div class="fl-text-rr">Legal</div>
+          </div>
+          <div>
+            <div class="fl-text-r">NFT</div>
+            <div class="fl-text-rr">OpenSea</div>
+            <div class="fl-text-rr">Maker</div>
+            <div class="fl-text-rr">Learn</div>
+          </div>
+
+          <div>
+            <div class="fl-text-r">Contact</div>
+            <div class="fl-text-rr">Press</div>
+            <div class="fl-text-rr">Support</div>
+          </div>
+          <div>
+            <div class="fl-text-r">Social</div>
+            <div class="fl-text-rr">Twitter</div>
+            <div class="fl-text-rr">Instagram</div>
           </div>
         </div>
       </footer-bottom>
       <div class="bottom-f">
         <div>&copy; Copyright 2022 NFTlanding</div>
-        <div>Launching August 2022</div>
+        <div class="hidden-mb">Launching August 2022</div>
       </div>
     </div>
   </body>
